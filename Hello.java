@@ -3,6 +3,7 @@ class Hello {
     public Hello() {
         System.out.println("Hello! We are:");
         this.Krerk();
+		this.Natthawat();
     }
     
     private void Krerk() {
@@ -10,6 +11,11 @@ class Hello {
         System.out.println("Trainee - Krerk Piromsopa, Ph.D. --- ");
     }
     
+	private void Natthawat() {
+		System.out.println("Trainer - Krerk Piromsopa, Ph.D.");
+		System.out.println("Trainee - Natthawat Sudsang, SSA ---");
+	}
+	
     public static void main(String [] argv) {
         new Hello();
     }
